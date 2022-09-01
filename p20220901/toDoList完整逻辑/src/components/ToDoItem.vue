@@ -14,8 +14,8 @@
         @blur="handleBlur(todo, $event)"
         ref="editInput"
       />
-      <button @click="del(todo.id)" class="button red">删除</button>
-      <button @click="edit(todo)" class="button red">编辑</button>
+      <button @click="del(todo.id)">删除</button>
+      <button @click="edit(todo)">编辑</button>
     </label>
   </li>
 </template>
